@@ -1,0 +1,25 @@
+.secao5_container{
+    height:650px;
+    background-color: #312F2F;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 230px;
+}
+
+.img_notebook{
+    width: 550px;
+    height: 350px;
+    margin-left: 20%;
+    margin-top: 18%;
+}
+
+.textos_container{
+    width: 550px;
+    height: 350px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    color: white;
+}

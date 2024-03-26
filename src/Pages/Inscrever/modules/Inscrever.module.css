@@ -1,0 +1,32 @@
+.Inscrever_container{
+    background-color: #2d2d2d;
+    background-image: url('../../../../public/teste.png');
+    background-repeat: no-repeat; 
+    background-position: top center; 
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    margin: -17px;
+    height: 100vh;    
+  }
+
+  .Inscrever_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+  }
+
+
+  .formulario_elementos{
+   background-color: #DAC2BF;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 10px;
+   row-gap: 20px;
+   width: 450px;
+   height: 600px;
+   border-radius: 46px;
+  }

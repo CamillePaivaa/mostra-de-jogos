@@ -1,0 +1,74 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.secao1_container{
+  background-color: rgba(0, 0, 0);
+  background-image: url('../../public/fundo1.png');
+  background-repeat: no-repeat; 
+  background-position: top center; 
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  height:750px;
+
+}
+
+.sobre_evento_btn{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width:32%;
+    height:750px;
+    justify-content: center;
+    row-gap: 13px;
+    margin-left: 240px;
+    margin-top: 25px;
+
+}
+
+.img_mulherGamer{
+  margin-top: 110px;
+  margin-right: 40px;
+  width: 625px;
+  height: 625px;
+
+}
+
+.btns{
+  display: flex;
+  margin-top: 25px;
+  column-gap: 22px;
+
+  a{
+   
+    text-decoration: none;
+  }
+}
+
+.btn_inscrever{
+
+  background-color: #F7476B;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 190px;
+ font-size: 15px;
+ cursor: pointer;
+}
+
+.btn_compartilhar{
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #F7476B;
+  border: 1.2px solid #F7476B;
+  border-radius: 10px;
+  padding: 10px;
+  width: 190px;
+ font-size: 15px;
+ cursor: pointer;
+
+}
+

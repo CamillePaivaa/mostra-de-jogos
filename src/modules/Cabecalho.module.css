@@ -1,0 +1,43 @@
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* height: 100px; */
+  margin-left: 10%;
+  margin-right: 10%; 
+   flex-wrap: wrap;
+  border-bottom: 1px solid #fff; 
+ 
+
+}
+
+.cabecalho_direita {
+  display: flex;
+  flex-direction: row;
+  column-gap: 22px;
+  margin-right: 25px;
+
+
+  a{
+    text-decoration: none;
+  }
+
+  p{
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+  }
+}
+
+.logo {
+  height: 70px;
+  width: 90px;
+  border-radius: 10px;
+  margin-left: -200px;
+}

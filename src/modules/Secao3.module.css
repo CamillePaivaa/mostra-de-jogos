@@ -1,0 +1,22 @@
+.secao3_container{
+    background-color: #2d2d2d;
+    background-image: url('../../public/fundo_cursos.png');
+    background-repeat: no-repeat; 
+    background-position: top center; 
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    height:750px;
+}
+
+.textos_container{
+
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 160px;
+    row-gap: 25px;
+    color: white;
+
+}
