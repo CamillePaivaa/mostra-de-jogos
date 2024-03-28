@@ -1,20 +1,54 @@
 .downloadjogos_container {
-  padding-top: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: #2d2d2d;
-  padding-left: 10%;
-  padding-right: 10%;
+  background-color: #08090b;
+}
+
+.mario_texto_container {
+  background-image: url("../../public/fundodowload_jogos.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 700px;
+  column-gap: 70px;
+  padding-left: 8%;
+  padding-right: 11%;
+}
+
+.img_mario {
+  margin-top: 12%;
+  width: 480px;
+  height: 556px;
+}
+
+.texto_container {
+  color: white;
+  width: 500px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 30px;
+}
+
+.titulo {
+  color: #ff0080;
 }
 
 h2 {
   align-self: flex-start;
   margin-bottom: 30px;
   color: #fff;
-  margin-left: 5%;
+  padding-left: 15%;
+  padding-top: 4%;
 }
 
 .capas_container {
@@ -24,7 +58,7 @@ h2 {
   column-gap: 20px;
   row-gap: 40px;
   margin-bottom: 50px;
-  margin-left: 5%;
+  padding-left: 15%;
 }
 img {
   width: 338px;

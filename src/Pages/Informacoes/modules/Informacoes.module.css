@@ -1,27 +1,29 @@
-.Informacoes_container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    column-gap: 90px;
-    background-color: #2d2d2d;
-    height: 780px;
- 
+.Informacoes_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 100px;
+  background-color: #08090b;
+  height: 780px;
+  background-image: url("../../../../public/fundo_informacoes.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
 }
 
-.paragrafo_container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    row-gap: 10px;
-    color: white;
-    width: 400px;
-    margin-top: 30px;
+.paragrafo_container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  color: white;
+  width: 400px;
+  margin-top: 30px;
 }
 
-.img_supermario{
- width: 650px;
- height: 440px;
- margin-right: -50px;
- margin-top: 90px;
+.img_controle {
+  width: 570px;
+  height: 570px;
+  margin-top: 90px;
+  margin-left: 40px;
 }

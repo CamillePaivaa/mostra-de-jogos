@@ -1,25 +1,32 @@
-.secao5_container{
-    height:650px;
-    background-color: #312F2F;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    column-gap: 230px;
+.secao5_container {
+  background-color: #08090b;
+  background-image: url("../../public/fundo_secao5.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 100px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 10%;
 }
 
-.img_notebook{
-    width: 550px;
-    height: 350px;
-    margin-left: 20%;
-    margin-top: 18%;
+.img_notebook {
+  width: 590px;
+  height: 420px;
+
+  margin-top: 18%;
 }
 
-.textos_container{
-    width: 550px;
-    height: 350px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    row-gap: 40px;
-    color: white;
+.textos_container {
+  width: 900px;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  color: white;
 }

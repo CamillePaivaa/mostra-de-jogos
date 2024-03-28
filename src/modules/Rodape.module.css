@@ -1,19 +1,18 @@
-.rodape_container{
-    background-color: #2D2D2D ;
-    height: 110px;
-    display: flex;
-    flex-direction: row;
-    column-gap: 45px;
-    align-items: center;
-  
+.rodape_container {
+  background-color: #0e1317;
+  height: 110px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 45px;
+  align-items: center;
 }
 
-.logo_ufv{
-    margin-left: 100px;
-    width: 100px;
-    height: 80px;
+.logo_ufv {
+  margin-left: 100px;
+  width: 100px;
+  height: 80px;
 }
 
-.localizacao_ufv{
-   color: #A19F9F;
+.localizacao_ufv {
+  color: #a19f9f;
 }

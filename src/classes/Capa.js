@@ -33,4 +33,4 @@ const capas = [
 const educacionais = capas.filter((capa) => capa.tag == "educacional");
 const apae = capas.filter((capa) => capa.tag == "apae");
 
-export { educacionais, apae };
+export { educacionais, apae, capas };
