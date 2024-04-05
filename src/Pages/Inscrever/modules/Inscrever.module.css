@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  column-gap: 30px;
+  column-gap: 50px;
   padding-left: 10%;
   margin: -17px;
   height: 100vh;
@@ -19,8 +19,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 10%;
-  row-gap: 20px;
+  padding-top: 15%;
+  row-gap: 13px;
   width: 580px;
   height: 100%;
 }
@@ -40,21 +40,28 @@
   color: #ff0080;
 }
 
-.input {
-  width: 480px;
-
+p {
+  margin-bottom: 20px;
+}
+.custom_select {
+  border: 0.5px solid #ff0080;
   border-radius: 10px;
+  width: 480px;
 }
 input {
+  border: 0.5px solid #ff0080;
   width: 480px;
   height: 40px;
   border-radius: 10px;
+  padding: 10px;
 }
 
 .btn_confirmarinscricao {
   width: 190px;
   height: 40px;
-  border-radius: 18px;
+  border-radius: 15px;
+  border: #ff0080;
   background-color: #ff0080;
   color: white;
+  margin-top: 10%;
 }

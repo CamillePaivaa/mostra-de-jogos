@@ -41,13 +41,14 @@ function Inscrever() {
           <input type="text" placeholder="Cidade" />
           <Select
             options={series}
-            className={InscreverStyles.input}
+            className={InscreverStyles.custom_select}
             placeholder="Série Cursada"
           />
 
           <input type="text" placeholder="Escola" />
           <input type="text" placeholder="Série Cursada" />
           <input type="text" placeholder="Email" />
+          <input type="text" placeholder="Idade" />
           <button className={InscreverStyles.btn_confirmarinscricao}>
             Confirmar Inscrição
           </button>

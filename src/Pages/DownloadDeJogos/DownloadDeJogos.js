@@ -1,10 +1,29 @@
 import { useEffect } from "react";
 import { educacionais, apae } from "../../classes/Capa";
 import DownloadJogosStyles from "../../modules/DownloadJogosStyles.module.css";
+import { useCabecalhoContext } from "../../contexts/CabecalhoContext";
 
 function DownloadDeJogos() {
+  const { setOpacidade } = useCabecalhoContext();
+
   useEffect(() => {
     console.log(educacionais);
+  }, []);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition =
+        window.pageYOffset || document.documentElement.scrollTop;
+      if (scrollPosition > 50) {
+        console.log("rolou");
+        setOpacidade("rgb(14, 19, 23)");
+      } else {
+        setOpacidade("rgb(14, 19, 23, 0)");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (

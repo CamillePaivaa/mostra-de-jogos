@@ -1,5 +1,4 @@
 .cabecalho {
-  background-color: rgb(14, 19, 23, 0.4);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -11,6 +10,7 @@
   left: 0;
   right: 0;
   flex-wrap: wrap;
+  height: 80px;
 }
 
 .cabecalho_direita {

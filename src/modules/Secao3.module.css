@@ -6,15 +6,22 @@
   background-size: cover;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  column-gap: 120px;
   height: 650px;
+  padding-left: 15%;
+  padding-right: 10%;
 }
 
 .textos_container {
-  width: 500px;
+  width: 700px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 160px;
   row-gap: 25px;
   color: white;
+}
+
+.titulo {
+  color: #ff0080;
 }

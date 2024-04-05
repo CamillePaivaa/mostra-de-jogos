@@ -9,12 +9,28 @@ import { useEffect } from "react";
 import { useCabecalhoContext } from "../../contexts/CabecalhoContext";
 
 function Home() {
-  const {removeVisibility,
-    activateVisibility} = useCabecalhoContext()
+  const { removeVisibility, activateVisibility, setOpacidade } =
+    useCabecalhoContext();
 
-  useEffect(()=>{
-    activateVisibility()
-  },[])
+  useEffect(() => {
+    activateVisibility();
+  }, []);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition =
+        window.pageYOffset || document.documentElement.scrollTop;
+      if (scrollPosition > 50) {
+        console.log("rolou");
+        setOpacidade("rgb(14, 19, 23)");
+      } else {
+        setOpacidade("rgb(14, 19, 23, 0)");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <div>
